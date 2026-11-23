@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f6f5f1">
+    <title>WeChat — Little moments, well told</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wechat.css">
+    <script src="wechat.js" defer></script>
+</head>
+<body>
+    <header class="topbar">
+        <a class="brand" href="#" aria-label="WeChat home"><span class="brand-mark">w.</span> wechat</a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a class="nav-link active" href="#discover">Discover</a>
+            <a class="nav-link" href="#stories">Stories</a>
+            <a class="nav-link" href="#community">Community</a>
+        </nav>
+        <div class="top-actions">
+            <button class="search-button" type="button" aria-label="Focus search"><span aria-hidden="true">⌕</span></button>
+            <a class="sign-in" href="#join">Sign in</a>
+            <a class="join-button" href="#join">Join the club <span aria-hidden="true">↗</span></a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="discover">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="eyebrow-dot"></span> A little inspiration, every day</p>
+                <h1>Life looks good<br>from <em>here.</em></h1>
+                <p class="hero-description">A place for your everyday adventures, favorite corners, and all the little things worth remembering.</p>
+                <a class="hero-cta" href="#stories">Explore the feed <span aria-hidden="true">↓</span></a>
+                <div class="community-note">
+                    <div class="avatar-stack" aria-hidden="true">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=72&amp;q=80" alt="">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=72&amp;q=80" alt="">
+                        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&amp;fit=crop&amp;w=72&amp;q=80" alt="">
+                    </div>
+                    <span><strong>12k+</strong> little moments shared</span>
+                </div>
+            </div>
+            <div class="hero-art" aria-label="A sunlit mountain landscape">
+                <img class="hero-photo" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&amp;fit=crop&amp;w=1400&amp;q=90" alt="A peaceful lake surrounded by mountains at sunrise">
+                <div class="photo-caption"><span class="caption-pin" aria-hidden="true">⌖</span><span><strong>Somewhere in the Dolomites</strong><small>Olivia Chen · 2 days ago</small></span><span class="caption-heart" aria-hidden="true">♡</span></div>
+                <div class="hero-sticker" aria-hidden="true"><span>✳</span><small>make<br>room for<br>the good</small></div>
+                <span class="image-index" aria-hidden="true">01 / 04</span>
+            </div>
+            <div class="hero-bottom">
+                <span>GOOD THINGS HAPPEN OUTSIDE</span>
+                <span class="hero-bottom-center">SCROLL A LITTLE <span aria-hidden="true">↓</span></span>
+                <span>MADE FOR THE MOMENT</span>
+            </div>
+        </section>
+
+        <section class="stories-section" id="stories">
+            <div class="section-heading">
+                <div><p class="eyebrow">YOUR DAILY DOSE OF ELSEWHERE</p><h2>Out there, <em>lately.</em></h2></div>
+                <a class="text-link" href="#community">See all stories <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="filters" role="group" aria-label="Filter stories">
+                <button class="filter-chip selected" type="button" data-filter="all">For you</button>
+                <button class="filter-chip" type="button" data-filter="travel">Travel</button>
+                <button class="filter-chip" type="button" data-filter="everyday">Everyday</button>
+                <button class="filter-chip" type="button" data-filter="food">Good food</button>
+                <button class="filter-chip" type="button" data-filter="slow">Slow living</button>
+            </div>
+            <div class="story-grid">
+                <article class="story-card" data-category="travel">
+                    <a class="story-image image-tall" href="#join" aria-label="Read Maya's story about the coast"><img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="Turquoise water along a sunny coastline" loading="lazy"><span class="image-label">THE LONG WAY ROUND</span></a>
+                    <div class="story-meta"><div class="creator"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&amp;fit=crop&amp;w=80&amp;q=80" alt="" loading="lazy"><span><strong>Maya Rivera</strong><small>Lisbon, Portugal</small></span></div><button class="like-button" type="button" aria-label="Like Maya's story" aria-pressed="false"><span aria-hidden="true">♡</span> <b>248</b></button></div>
+                    <h3>Taking the long way to the sea</h3>
+                </article>
+                <article class="story-card" data-category="food">
+                    <a class="story-image image-short" href="#join" aria-label="Read Theo's story about weekend baking"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="Freshly baked sourdough loaves on a table" loading="lazy"><span class="image-label">SUNDAY, SLOWLY</span></a>
+                    <div class="story-meta"><div class="creator"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=80&amp;q=80" alt="" loading="lazy"><span><strong>Theo James</strong><small>Brooklyn, NY</small></span></div><button class="like-button" type="button" aria-label="Like Theo's story" aria-pressed="false"><span aria-hidden="true">♡</span> <b>196</b></button></div>
+                    <h3>Flour on the counter, nowhere to be</h3>
+                </article>
+                <article class="story-card" data-category="everyday">
+                    <a class="story-image image-short" href="#join" aria-label="Read Amara's story about her city walk"><img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="A quiet street glowing beneath the evening sky" loading="lazy"><span class="image-label">AFTER THE RAIN</span></a>
+                    <div class="story-meta"><div class="creator"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=80&amp;q=80" alt="" loading="lazy"><span><strong>Amara Okafor</strong><small>Copenhagen, Denmark</small></span></div><button class="like-button" type="button" aria-label="Like Amara's story" aria-pressed="false"><span aria-hidden="true">♡</span> <b>312</b></button></div>
+                    <h3>The city is softer after the rain</h3>
+                </article>
+                <article class="story-card" data-category="slow">
+                    <a class="story-image image-tall" href="#join" aria-label="Read Eli's story about a quiet morning"><img src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="Warm morning light falling through a quiet home" loading="lazy"><span class="image-label">A ROOM TO BREATHE</span></a>
+                    <div class="story-meta"><div class="creator"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=80&amp;q=80" alt="" loading="lazy"><span><strong>Eli Morgan</strong><small>Portland, Oregon</small></span></div><button class="like-button" type="button" aria-label="Like Eli's story" aria-pressed="false"><span aria-hidden="true">♡</span> <b>174</b></button></div>
+                    <h3>Learning to leave the morning open</h3>
+                </article>
+            </div>
+            <p class="empty-state" hidden>No stories in this corner just yet. Try another filter.</p>
+        </section>
+
+        <section class="join-banner" id="join">
+            <span class="join-spark" aria-hidden="true">✳</span>
+            <p class="eyebrow">YOUR LIFE, YOUR LITTLE CORNER</p>
+            <h2>Got a moment<br>worth <em>sharing?</em></h2>
+            <p>Bring your everyday stories to a community that loves the little things.</p>
+            <a class="hero-cta" href="mailto:hello@wechat.example">Come on in <span aria-hidden="true">↗</span></a>
+        </section>
+    </main>
+
+    <footer class="footer" id="community">
+        <a class="brand" href="#"><span class="brand-mark">w.</span> wechat</a>
+        <p>Keep the good things close.</p>
+        <span>© 2025 WECHAT STUDIO</span>
+    </footer>
+</body>
+</html>
